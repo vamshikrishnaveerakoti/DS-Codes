@@ -68,7 +68,7 @@ char main()
 {
 	char exp[100];
 	struct stack *s;
-	s=(struct stak*)malloc(sizeof(struct stack));
+	s=(struct stack*)malloc(sizeof(struct stack));
 	printf("Enter the expression: ");
 	scanf("%s",exp);
 	char *e;
